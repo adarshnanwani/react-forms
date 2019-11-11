@@ -5,7 +5,7 @@ class ShoppingListForm extends Component {
     super(props);
     this.state = { name: "", quantity: "" };
     this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   handleChange(evt) {
